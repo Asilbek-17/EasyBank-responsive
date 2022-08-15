@@ -488,7 +488,7 @@ body{
     top: calc(50% - 140px);
     z-index: 99;
     max-width: 450px;
-    margin-left: 30px;
+    margin: 0 auto;
   }
 
   .hero__title {
@@ -562,7 +562,7 @@ body{
     top: calc(50% - 140px);
     z-index: 99;
     max-width: 350px;
-    margin-left: 30px;
+    margin: 0 auto;
   }
 
   .hero__title {
@@ -631,7 +631,7 @@ body{
     top: calc(50% - 140px);
     z-index: 99;
     max-width: 350px;
-    margin-left: 30px;
+    margin: 0 auto;
   }
 
   .hero__title {
@@ -700,7 +700,8 @@ body{
     top: calc(50% - 140px);
     z-index: 99;
     max-width: 350px;
-    margin-left: 30px;
+    margin: 0 auto;
+    /* margin-left: 30px; */
   }
 
   .hero__title {
@@ -749,16 +750,19 @@ body{
 
   .hero__hero-box{
     max-width: 300px;
+    margin: 0 auto;
   }
 
   .hero__title {
     font-size: 38px;
     color: #383d61;
     margin-bottom: 10px;
+    line-height: 35px;
   }
 
   .hero__text {
     font-size: 14px;
+    margin-bottom: 25px;
   }
 }
 
@@ -776,6 +780,7 @@ body{
 
   .hero__hero-box {
     width: 360px;
+    margin: 0 auto;
   }
 
   .hero__img {
@@ -798,7 +803,7 @@ body{
   .site-navshow {
     position: absolute;
     top: calc(50% - 250px );
-    left: calc(50% - 150px);
+    left: calc(50% - 160px);
     display: block;
     width: 327px;
     height: 265px;
@@ -923,7 +928,7 @@ body{
   }
 
   .hero__hero-box {
-    width: 350px;
+    width: 300px;
     top: calc(50% + 20px);
     margin: 0 auto;
     text-align: center;
@@ -957,7 +962,7 @@ body{
   .site-navshow {
     position: absolute;
     top: calc(50% - 250px );
-    left: calc(50% - 150px);
+    left: calc(50% - 160px);
     display: block;
     width: 327px;
     height: 265px;
@@ -1030,12 +1035,22 @@ body{
     margin: 0 auto;
   }
 
+  .why__item:nth-child(1) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .why__item:nth-child(4) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .why__text2 {
     line-height: 20px;
   } 
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .overly {
     position: absolute;
     top: 0;
@@ -1173,4 +1188,4 @@ body{
   .why__text2 {
     line-height: 20px;
   } 
-}
+} */
